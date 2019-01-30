@@ -259,6 +259,7 @@ namespace Microsoft.Azure.Commands.Common
 
 
     [Cmdlet(VerbsLifecycle.Register, @"AzModule")]
+    [Alias("Register-AzureModule")]
     public class RegisterAzModule : System.Management.Automation.PSCmdlet
     {
 
